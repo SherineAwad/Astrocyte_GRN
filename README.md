@@ -11,6 +11,10 @@
 ##### After filtering 
 ![](figures/violin_AfterQC.png?v=1)
 
+
+#### Samples UMAP
+![](figures/umap_astrocyte_Samples.png?v=1)
+
 #### Clustering UMAP
 
 ![](figures/umap_astrocyte_Clusters.png?v=1)
@@ -24,8 +28,7 @@
 <img src="figures/umap_astrocyte_Olig2.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Rpe65.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Tie1.png?v=1" width="30%" />
 
 <img src="figures/umap_astrocyte_Abca8a.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Calb1.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Foxn4.png?v=1" width="30%" />
-<img src="figures/umap_astrocyte_Lhx1.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Otx2.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Samples.png?v=1" width="30%" />
-<img src="figures/umap_astrocyte_Vim.png?v=1" width="30%" />
+<img src="figures/umap_astrocyte_Lhx1.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Otx2.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Vim.png?v=1" width="30%" />
 
 <img src="figures/umap_astrocyte_Acta2.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Calb2.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Gad1.png?v=1" width="30%" />
 <img src="figures/umap_astrocyte_Lhx2.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Pax2.png?v=1" width="30%" /> <img src="figures/umap_astrocyte_Sebox.png?v=1" width="30%" />
