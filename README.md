@@ -40,7 +40,7 @@
 <img src="figures/umap_astrocyte_Malat1.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Prdm1.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Slc1a3.png?v=2" width="30%" />
 
 <img src="figures/umap_astrocyte_Arr3.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Hes1.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_mt-Atp6.png?v=2" width="30%" />
-<img src="figures/umap_astrocyte_Prdx6.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Slc6a9.png?v=2" width="30%" />
+<img src="figures/umap_astrocyte_Prdx6.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Slc6a9.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Tfap2a.png?v=2"  width="30%" />
 
 <img src="figures/umap_astrocyte_Ascl1.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Csf1r.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Hes5.png?v=2" width="30%" />
 <img src="figures/umap_astrocyte_Neurog2.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Rbfox3.png?v=2" width="30%" /> <img src="figures/umap_astrocyte_Sox11.png?v=2" width="30%" />
