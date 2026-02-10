@@ -65,34 +65,103 @@
 
 we used `check.py` for this QC check 
 
-**Minimum fragments per barcode:** 50
+## 📊 Fragment Distribution Analysis
 
 ---
 
-### Sample: `13005-TH2_atac_fragments.tsv.gz`
-* **Fragments sampled:** 100,000  
-* **Unique barcodes:** 15,039  
-* **Barcodes with ≥50 fragments:** 85  
-* **Average fragments per barcode:** 6.6  
-* ⚠️ **Warning:** 12,072 / 15,039 barcodes have fewer than 10 fragments
+### 📁 Sample: `13005-TH2_atac_fragments.tsv.gz`
+
+**Overview**
+* **Total fragments:** 143,673,298  
+* **Total barcodes:** 507,783  
+* **Mean fragments per barcode:** 282.94  
+* **Median fragments per barcode:** 2.00  
+* **Minimum fragments per barcode:** 1  
+* **Maximum fragments per barcode:** 1,625,975  
+
+**Percentiles (fragments per barcode)**
+* 10th percentile: 1.0  
+* 25th percentile: 1.0  
+* 50th percentile (median): 2.0  
+* 75th percentile: 6.0  
+* 90th percentile: 106.0  
+* 95th percentile: 205.0  
+* 99th percentile: 6,339.2  
+
+**Cells meeting fragment thresholds**
+* ≥10 fragments: **94,766** cells (18.7%)  
+* ≥50 fragments: **62,349** cells (12.3%)  
+* ≥100 fragments: **52,419** cells (10.3%)  
+* ≥500 fragments: **9,424** cells (1.9%)  
+* ≥1000 fragments: **6,717** cells (1.3%)  
+
+**Distribution summary**
+* Top 10% of cells have **≥106.0** fragments  
+* Bottom 10% of cells have **≤1.0** fragments  
 
 ---
 
-### Sample: `13784-TH1_atac_fragments.tsv.gz`
-* **Fragments sampled:** 100,000  
-* **Unique barcodes:** 30,516  
-* **Barcodes with ≥50 fragments:** 275  
-* **Average fragments per barcode:** 3.3  
-* ⚠️ **Warning:** 29,814 / 30,516 barcodes have fewer than 10 fragments
+### 📁 Sample: `13784-TH1_atac_fragments.tsv.gz`
+
+**Overview**
+* **Total fragments:** 344,732,502  
+* **Total barcodes:** 620,928  
+* **Mean fragments per barcode:** 555.19  
+* **Median fragments per barcode:** 5.00  
+* **Minimum fragments per barcode:** 1  
+* **Maximum fragments per barcode:** 645,039  
+
+**Percentiles (fragments per barcode)**
+* 10th percentile: 1.0  
+* 25th percentile: 2.0  
+* 50th percentile (median): 5.0  
+* 75th percentile: 12.0  
+* 90th percentile: 312.0  
+* 95th percentile: 1,501.0  
+* 99th percentile: 14,666.3  
+
+**Cells meeting fragment thresholds**
+* ≥10 fragments: **189,411** cells (30.5%)  
+* ≥50 fragments: **84,823** cells (13.7%)  
+* ≥100 fragments: **72,069** cells (11.6%)  
+* ≥500 fragments: **58,522** cells (9.4%)  
+* ≥1000 fragments: **50,235** cells (8.1%)  
+
+**Distribution summary**
+* Top 10% of cells have **≥312.0** fragments  
+* Bottom 10% of cells have **≤1.0** fragments  
 
 ---
 
-### Sample: `13784-TH2_atac_fragments.tsv.gz`
-* **Fragments sampled:** 100,000  
-* **Unique barcodes:** 33,605  
-* **Barcodes with ≥50 fragments:** 149  
-* **Average fragments per barcode:** 3.0  
-* ⚠️ **Warning:** 32,486 / 33,605 barcodes have fewer than 10 fragments
+### 📁 Sample: `13784-TH2_atac_fragments.tsv.gz`
+
+**Overview**
+* **Total fragments:** 361,488,946  
+* **Total barcodes:** 624,185  
+* **Mean fragments per barcode:** 579.14  
+* **Median fragments per barcode:** 5.00  
+* **Minimum fragments per barcode:** 1  
+* **Maximum fragments per barcode:** 312,897  
+
+**Percentiles (fragments per barcode)**
+* 10th percentile: 1.0  
+* 25th percentile: 2.0  
+* 50th percentile (median): 5.0  
+* 75th percentile: 12.0  
+* 90th percentile: 239.0  
+* 95th percentile: 1,082.0  
+* 99th percentile: 18,388.3  
+
+**Cells meeting fragment thresholds**
+* ≥10 fragments: **190,804** cells (30.6%)  
+* ≥50 fragments: **83,727** cells (13.4%)  
+* ≥100 fragments: **70,674** cells (11.3%)  
+* ≥500 fragments: **56,133** cells (9.0%)  
+* ≥1000 fragments: **36,244** cells (5.8%)  
+
+**Distribution summary**
+* Top 10% of cells have **≥239.0** fragments  
+* Bottom 10% of cells have **≤1.0** fragments  
 
 ---
 
