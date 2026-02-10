@@ -26,3 +26,15 @@ mm10_tss.bed:
 	wget https://resources.aertslab.org/cistarget/regions/mm10-limited-upstream10000-tss-downstream10000-full-transcript.bed
 	mv mm10-limited-upstream10000-tss-downstream10000-full-transcript.bed mm10_tss.bed 
 
+
+pycistopic_qc_commands.txt: mm10_tss.bed  
+	python src/prepQC.py \
+	--out_dir scenicOuts \
+	--consensus_dir scenicOuts/consensus_peak_calling \
+	--tss_bed mm10_tss.bed \
+	--samples_map samples_map.txt \
+	--qc_commands_filename pycistopic_qc_commands.txt \
+	--min_fragments_per_cb 50
+
+xx: 
+	bash pycistopic_qc_commands.txt 
