@@ -61,6 +61,38 @@
 <img src="figures/umap_astrocyte_Tubb3.png?v=2" alt="tubb3" width="33%">
 
 
+## 🔍 Fragment Count QC Summary
 
+we used `check.py` for this QC check 
 
+**Minimum fragments per barcode:** 50
+
+---
+
+### Sample: `13005-TH2_atac_fragments.tsv.gz`
+* **Fragments sampled:** 100,000  
+* **Unique barcodes:** 15,039  
+* **Barcodes with ≥50 fragments:** 85  
+* **Average fragments per barcode:** 6.6  
+* ⚠️ **Warning:** 12,072 / 15,039 barcodes have fewer than 10 fragments
+
+---
+
+### Sample: `13784-TH1_atac_fragments.tsv.gz`
+* **Fragments sampled:** 100,000  
+* **Unique barcodes:** 30,516  
+* **Barcodes with ≥50 fragments:** 275  
+* **Average fragments per barcode:** 3.3  
+* ⚠️ **Warning:** 29,814 / 30,516 barcodes have fewer than 10 fragments
+
+---
+
+### Sample: `13784-TH2_atac_fragments.tsv.gz`
+* **Fragments sampled:** 100,000  
+* **Unique barcodes:** 33,605  
+* **Barcodes with ≥50 fragments:** 149  
+* **Average fragments per barcode:** 3.0  
+* ⚠️ **Warning:** 32,486 / 33,605 barcodes have fewer than 10 fragments
+
+---
 
